@@ -1,6 +1,6 @@
 # R at Sea
 
-This repository contains the materials used in the 24 - 26 January 2020 R at Sea Course offered by Field School in Miami, FL.
+This repository contains the materials used in the 24 - 26 January 2020 R at Sea Course offered by [Field School](www.getintothefield.com) in Miami, Florida.
 
 ### Set Up Instructions  
 

@@ -19,7 +19,7 @@ This repository contains the materials used in the 24 - 26 January 2020 R at Sea
 
 `install.packages("ggplot2")`  
 `install.packages("lubridate")`  
-`install.packages("dplyr")`
+`install.packages("dplyr")`  
 `install.packages("tidyr")`  
 `install.packages("MASS")`  
 `install.packages("Ecdat")`  

@@ -15,9 +15,14 @@ This repository contains the materials used in the 24 - 26 January 2020 R at Sea
 
 4. Unzip these files into a folder on your Desktop called "RSea"  
 
-5. If you are comfortable doing so, run the following lines of code in RStudio to install the packages we'll be using during this workshop:  
+5. If you are comfortable doing so, run the following lines of code in RStudio to install the main packages we'll be using during this workshop. If you need assistance with this, we'll be covering this process in more detail on Day One of the workshop.  
 
 `install.packages("ggplot2")`  
+`install.packages("lubridate")`  
+`install.packages("dplyr")`
+`install.packages("tidyr")`  
+`install.packages("MASS")`  
+`install.packages("Ecdat")`  
 
 ### Module 1: Introduction to R and RStudio     
 **introduction_BLANK.R** includes an outline and can be used to code along with the instructor (recommended)  

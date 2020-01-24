@@ -33,7 +33,11 @@ This repository contains the materials used in the 24 - 26 January 2020 R at Sea
 **dplyr_ggplot2.R** includes notes and code  
 **visualization.PNG** contains a plot that will be used during an exercise in this module  
 
-#### Modules 3+ will be added as required  
+#### Modules 3: Introduction to Linear Models  
+**introduction_linear_models_BLANK.R** includes an outline and can be used to code along with the instructor (recommended)  
+**introduction_linear_models.R** includes notes and code  
+
+#### Module 4+ will be added as required  
 
 ### Data  
 *The data used in this workshop is a modified version of the publicly avilable data cited below. It is used only as a teaching tool and the modifications and/or use of this data for the purpose of this workshop is not representative of the original data or its intentions.*  

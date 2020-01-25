@@ -280,3 +280,4 @@ multi_diag <- bind_rows(model5_diag,
 
 # Compare: theta
 
+# ---- Visualize Model7 ----

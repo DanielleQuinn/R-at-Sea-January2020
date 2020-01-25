@@ -366,3 +366,19 @@ dispersion(model7, modeltype = "nb")
 model5$theta
 model6$theta
 model7$theta
+
+# ---- Visualize Model7 ----
+summary(model7)
+
+dragonflies <- dragonflies %>%
+  mutate(predicted_m7 = predict(model7, dragonflies, type = "response"),
+         error = predict(model7, dragonflies, se = TRUE, type = "response")$se)
+
+ggplot(dragonflies) +
+  geom_point(aes(x = stream_flow, y = abundance)) + 
+  geom_line(aes(x = stream_flow, y = predicted_m7, col = time)) +
+  geom_line(aes(x = stream_flow, y = predicted_m7 - error, col = time),
+            linetype = "dashed") +
+  geom_line(aes(x = stream_flow, y = predicted_m7 + error,  col = time),
+                linetype = "dashed") +
+  theme_bw()
